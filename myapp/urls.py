@@ -11,8 +11,5 @@ from .views import CSVUploadHandler
 from django.urls import path
 
 urlpatterns = [
-    path('upload/',CSVUploadHandler.as_view(), name='myapp-upload')
-    
-   
-    
+    path('upload/',CSVUploadHandler.as_view(), name='myapp-upload')    
 ]
